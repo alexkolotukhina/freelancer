@@ -1,0 +1,324 @@
+@import url('https://fonts.googleapis.com/css?family=Domine:700|Montserrat:400,700|Open+Sans:400,700');
+
+body{
+
+}
+
+
+
+/* Layout */
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 980px;
+}
+.ba-dot {
+	color: #fa5c65;
+}
+.ba-link {
+	font-family: 'Montserrat', sans-serif;
+	color:  #fa5c65;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.ba-link:hover {
+	text-decoration: underline;
+}
+.ba-link__arrow {
+	margin-left: 5px;
+}
+/* HEADER */
+.ba-header {
+	background: url(../img/bg-header.jpg) top no-repeat;
+}
+.ba-header__logo {
+	display: block;
+	background-color:  #fa5c65;
+	width: 140px;
+	height: 74px;
+	font-family: 'Domine', serif;
+	color:  #ffffff;
+	font-size: 20px;
+	font-weight: 700;
+	text-align: center;
+	text-decoration: none;
+	padding-top: 40px;
+	border-bottom-left-radius: 7px;
+	border-bottom-right-radius: 7px;
+}
+.ba-header__logo:hover {
+	text-decoration: underline;
+}
+.ba-header__dot {
+	color: #314a5b;
+}
+.ba-header__nav {
+	padding-left: 0;
+	list-style: none;
+	text-align: right;
+	float: right;
+	margin: 25px 0;
+}
+.ba-header__list {
+	display: inline-block;
+}
+.ba-header__list:not(:last-child) {
+	margin-right: 30px;
+}
+.ba-header__item {
+	font-family: 'Montserrat', sans-serif;
+	color:  #263642;
+	font-size: 14px;
+	font-weight: 400;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.ba-header__item:hover {
+	text-decoration: underline;
+}
+.ba-header__item--red {
+	color: #fa5c65;
+	font-size: 18px;
+}
+.ba-header__main {
+	padding-bottom: 373px;
+}
+.ba-header__header {
+	font-family: 'Montserrat', sans-serif;
+	color:  #314a5b;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 53px;
+	text-align: left;
+	text-transform: uppercase;
+	max-width: 540px;
+	margin: 280px 0 20px;
+}
+.ba-header__text {
+	font-family: 'Open Sans', sans-serif;
+	color:  #314a5b;
+	font-size: 20px;
+	font-weight: 400;
+	text-align: left;
+	padding-bottom: 40px;
+	margin: 0;
+}
+.ba-header__btn {
+	border-radius: 7px;
+	background-color:  #fa5c65;
+	display: block;
+	width: 171px;
+	height: 64px;
+	font-family: 'Open Sans', sans-serif;
+	color:  #ffffff;
+	font-size: 15px;
+	font-weight: 700;
+	line-height: 68px;
+	text-align: center;
+	text-decoration: none;
+}
+.ba-header__btn:hover {
+	color: #fa5c65;
+	background-color: #fff;
+}
+
+/* SNIPPETS */
+
+.ba-snippets {
+	padding-top: 80px;
+}
+.ba-snippets__header {
+	font-family: 'Montserrat', sans-serif;
+	color:  #465065;
+	font-size: 26px;
+	font-weight: 700;
+	line-height: 26px;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 0;
+}
+.ba-snippets__header--row2{
+	margin-bottom: 30px;
+}
+.ba-snippets__text, .ba-portfolio__text {
+	font-family: 'Open Sans', sans-serif;
+	color:  #9aa0ab;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 22px;
+	text-align: left;
+	margin-bottom: 30px;
+	padding-right: 40px;
+}
+
+/* PORTFOLIO */
+
+.ba-portfolio {
+	padding-top: 60px;
+}
+.ba-portfolio__title {
+	font-family: 'Montserrat', sans-serif;
+	color:  #314a5b;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 46px;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 60px 0 20px;
+}
+.ba-portfolio__subtitle {
+	font-family: 'Open Sans', sans-serif;
+	color:  #314a5b;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+	margin: 0;
+}
+
+/* TEAM */
+.ba-team {
+	padding-top: 60px;
+}
+.ba-team__title {
+	font-family: 'Montserrat', sans-serif;
+	color:  #314a5b;
+	font-size: 32px;
+	font-weight: 700;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 0;
+}
+.ba-team__text {
+	font-family: 'Open Sans', sans-serif;
+	color:  #9aa0ab;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+}
+
+.ba-team__item {
+	padding: 20px 0 35px;
+}
+.ba-team__name {
+	font-family: 'Montserrat', sans-serif;
+	color:  #314a5b;
+	font-size: 22px;
+	font-weight: 700;
+	text-align: left;
+	text-transform: uppercase;
+	margin: 0;
+}
+.ba-team__position {
+	font-family: 'Open Sans', sans-serif;
+	color:  #f0454c;
+	font-size: 14px;
+	font-weight: 400;
+	text-align: left;
+	margin: 10px 0 15px;
+}
+.ba-team__about {
+	font-family: 'Open Sans', sans-serif;
+	color:  #9aa0ab;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 20px;
+	text-align: left;
+	padding-right: 10px;
+	margin: 0;
+}
+.ba-team__photo {
+	width: 120px;
+	height: 120px;
+	float: left;
+	margin-right: 22px;
+}
+.ba-team__photo:hover {
+	opacity: .5;
+}
+.ba-team__link {
+	text-align: right;
+	padding-bottom: 60px;
+}
+
+/* FOOTER */
+
+.ba-footer__social {
+	border-top: 1px solid #b9c0c6;
+}
+.ba-footer__list {
+	padding-left: 0;
+	list-style: none;
+}
+.ba-footer__item {
+	display: inline-block;
+}
+.ba-footer__link {
+	color: #b9c0c6;
+	font-size: 20px;
+	padding-right: 22px;
+	line-height: 60px;
+}
+.ba-footer__link:hover {
+	color: #fa5c65;
+}
+.ba-footer__copyright {
+	font-family: 'Open Sans', sans-serif;
+	color:  #b9c1c6;
+	font-size: 13px;
+	font-weight: 400;
+	line-height: 60px;
+	text-align: right;
+}
+/* Typography */
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+
+	-webkit-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	-moz-transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+
+}
+textarea {
+
+}
